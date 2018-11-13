@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Latest Weather Readings in your Location!">
+	  <meta name="keywords" content="Smart Weather Station">
+  	<meta name="author" content="Deji Augustine">
+    <title>Smart Weather Station | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Smart</span> Weather Station</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="live weather data.html">Live Weather data</a></li>
+            <li><a href="12 hour trends.html">12 Hour Trends</a></li>
+			<li><a href="weather data.html">Weather data</a></li>
+			<li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="sky">
+      <div class="container">
+        <h1>Latest Weather Readings of your Location!</h1>
+        <p>Weather Statistics</p>
+      </div>
+    </section>
+
+    <section>
+      <center> 
+      	</section>
+      	<center>
+		
+      		
+      	    <section id="dark">
+      <div class="container">
+        <h1>Weather Information's</h1>
+        <form>
+        </form>
+      </div>
+      </center>
+
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <p>
+          	<p>
+		  <img src="./img/Color-temperature.jpg">
+          <h3>Temperature [øC]</h3>
+          <p>Temperature of your area<p>
+	<iframe width="425" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/426203/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+
+		
+
+        </div>
+        <div class="box">
+          <img src="./img/Humidity.png">
+          <h3>Humidity [%]</h3>
+          <p>Humidity readings of your area</p>
+	<iframe width="425" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/426203/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+
+
+        </div>
+        <div class="box">
+          <img src="./img/Airpressure.jfif">
+          <h3>Air pressure [mBar].</h3>
+          <p>Pressure of the air of your area.</p>   
+	<iframe width="425" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/426203/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+
+        </div>
+		
+    </section>
+    <div class="container">
+    	<section id="boxes">
+
+    <div class="box">
+          <img src="./img/anemometer.jfif">
+          <h3>wind speed [km/h]</h3>
+          <p>Speed of the wind in your area</p>
+	<iframe width="425" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/426203/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+
+        </div>
+        <p>
+
+		<div class="box">
+          <img src="./img/Raindrops.jfif">
+          <h3>Raindrops [mm]</h3>
+          <p>The amount of raindrops that dropped in your area</p> 	  
+	<iframe width="425" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/426203/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+
+		  
+        </div>
+      </div>
+
+</section>
+    <footer>
+      <p>Smart Weather Station by Ayodeji </p>
+    </footer>
+  </body>
+</html>
